@@ -1,0 +1,5 @@
+urls = ['a','b','c']
+for url in urls:    
+    for i in range(10):
+        url = url.replace('/P*',"") + '/P' + str(i)
+        print(url)
